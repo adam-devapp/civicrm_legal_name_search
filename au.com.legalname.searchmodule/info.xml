@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="au.com.legalname.searchmodule" type="module">
+  <file>searchmodule</file>
+  <name>Legal Name Search Extension</name>
+  <description>Add Legal Name to Contact 'Advanced Search', 'Find Contacts' and Quick Search form(s)</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>devapp</author>
+    <email>civicrm@devapp.com.au</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://www.devapp.com.au</url>
+    <url desc="Documentation">http://www.devapp.com.au</url>
+    <url desc="Support">http://www.devapp.com.au</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-09-10</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.6</ver>
+  </compatibility>
+  <comments>Replaces advanced search and contact search name to include legal search name. Also appends legal name search results to quick search.</comments>
+  <civix>
+    <namespace>CRM/Searchmodule</namespace>
+  </civix>
+</extension>
